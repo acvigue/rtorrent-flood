@@ -20,7 +20,6 @@ RUN apk -U upgrade \
     zlib \
     zip \
     gzip \
-    unrar \
     findutils \
  && rm -rf /var/cache/apk/* /tmp/*
 
