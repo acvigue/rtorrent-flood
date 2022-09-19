@@ -27,7 +27,7 @@ RUN apk -U upgrade \
 COPY --from=rtorrent / /
 
 # Copy additional tools
-COPY .rtorrent.rc /home/torrent
+COPY .rtorrent.rc /home/torrent/
 COPY run.sh /usr/local/bin/run.sh
 RUN chmod +x /usr/local/bin/*.sh
 
